@@ -6,7 +6,7 @@ from sklearn.pipeline import make_pipeline
 import joblib
 
 # Load data
-data = pd.read_csv(r'data\training.1600000.processed.noemoticon.csv', encoding='latin-1', header=None)
+data = pd.read_csv(r'data\your_sentiment_data.csv', encoding='latin-1', header=None)
 data.columns = ['target', 'id', 'date', 'flag', 'user', 'text']
 data = data[['target', 'text']]
 
