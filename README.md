@@ -21,13 +21,13 @@ The application utilizes machine learning techniques, specifically logistic regr
 
 ## Usage
 1. Install the required dependencies listed in `requirements.txt` using pip:
-    pip install -r requirements.txt
+    `pip install -r requirements.txt`
 
 2. Start LocalStack to emulate AWS services locally:
-    localstack start
+    `localstack start`
 
 3. Run the Streamlit application using the following command:
-    streamlit run app.py
+    `streamlit run app.py`
 
 4. Access the application in your web browser at the provided URL (default is http://localhost:8501).
 
